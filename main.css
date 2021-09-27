@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main .bck_img {
+    position: relative;
+    width: 1600px;
+}
+
+.logo_div {
+    margin-top: -240px;
+    margin-left: 210px;
+}
+
+.logo {
+    position: relative;
+    margin-left: 500px;
+}
+
+.main_title {
+    font-weight: 600;
+    color: #4a545d;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main_dsc {
+    color: #a3a9a9;
+    text-align: center;
+}
+
+.main_btns {
+    margin-top: 100px;
+    margin-left: 595px;
+}
+
+.main_btns a {
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 100px;
+}
+
+.main_btn_1 {
+    background: #26bba5;
+    margin-right: 20px;
+}
+
+.main_btn_2 {
+    background: #6274fc;
+}
+
+.imac_section {
+    margin-top: 250px;
+}
+
+.imac_title {
+    text-align: center;
+    font-weight: 600;
+    color: #4a545d;
+    font-size: 20px;
+}
+
+.imac_dsc {
+    text-align: center;
+    color: #a3a9a9;
+}
+
+.imac_img {
+    margin-left: -30px;
+    margin-top: 100px;
+}
+
+.txt_near_the_imac {
+    margin-left: 800px;
+    margin-top: -543px;
+}
+
+.txt_near_the_imac_title {
+    color: #4a545d;
+}
+
+.txt_near_the_imac_dsc {
+    color: #a3a9a9;
+}
+
+.devices_section {
+    margin-top: 400px;
+}
+
+.devices_title {
+    color: #4a545d;
+    text-align: center;
+    font-size: 20px;
+}
+
+.devices_dsc {
+    color: #a3a9a9;
+    text-align: center;
+}
+
+.devices_img {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.tools_title {
+    text-align: center;
+    font-weight: 600;
+    color: #4a545d;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.tools_dsc {
+    color: #a3a9a9;
+    text-align: center;
+}
+
+.tools_img {
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.tools_img_img {
+    text-align: center;
+}
+
+.tools_img_title {
+    font-weight: 600;
+    color: #4a545d;
+    text-align: center;
+    font-size: 20px;
+}
+
+.tools_img_dsc {
+    color: #a3a9a9;
+    text-align: center;
+}
+
+.sponsors_section {
+    margin-top: 60px;
+}
+
+.sponsors {
+    margin: 100px 0 0 100px;
+    margin-left: 180px;
+}
+
+.sponsors img {
+    margin-right: 127px;
+    text-align: center;
+}
+
+.download_section {
+    margin-top: 130px;
+}
+
+.download_title {
+    font-weight: 600;
+    color: #4a545d;
+    text-align: center;
+    font-size: 20px;
+}
+
+.download_dsc {
+    color: #a3a9a9;
+    text-align: center;
+}
+
+.main_btns {
+    margin-top: 60px;
+}
+
+footer {
+    background: #f5f6f8;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+footer .footer_logo {
+    width: 50px;
+    margin-left: 100px;
+}
+
+.footer_text span {
+    margin-left: 280px;
+    margin-bottom: 10px;
+}
+
+.networks img {
+    width: 30px;
+    padding-right: 30px;
+}
+
+.networks {
+    margin-left: 1300px;
+    margin-top: -40px;
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .logo_div {
+        margin-left: -90px;
+    }
+
+    .main_btns {
+        margin-left: 300px;
+    }
+
+    .imac_img {
+        margin-left: 110px;
+    }
+
+    .txt_near_the_imac {
+        margin-left: 370px;
+        margin-top: 80px;
+    }
+
+    .sponsors img {
+        padding-right: 30px;
+        margin-left: -150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 540px;
+    }
+
+    .logo {
+        margin-left: 310px;
+    }
+
+    .main_dsc {
+        margin-left: 37px;
+    }
+
+    .main_btns {
+        margin-left: 94px;
+    }
+
+    .imac_img img {
+        width: 470px;
+        margin-left: -62px;
+    }
+
+    .txt_near_the_imac {
+        margin-left: 66px;
+    }
+
+    .devices_title {
+        margin-left: 30px;
+    }
+
+    .devices_dsc {
+        margin-left: 25px;
+    }
+
+    .devices_img img {
+        width: 500px;
+        margin-left: 40px;
+    }
+
+    .blacklist {
+        margin-right: 50px;
+        margin-left: -60px;
+    }
+
+    .sneak_preview {
+        margin-left: 39px;
+        margin-right: -90px;
+    }
+}
+
+@media (max-width: 375px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    .container {
+        width: 375px;
+    }
+
+    .logo_div {
+        margin-left: -370px;
+    }
+
+    .main_btns {
+        margin-left: 100px;
+    }
+
+    .imac_img img {
+        width: 360px;
+        margin-left: 57px;
+    }
+
+    .txt_near_the_imac {
+        margin: 50px;
+    }
+
+    .devices_img img {
+        width: 400px;
+        margin-left: -10px;
+    }
+
+    .tools_img {
+        flex-direction: column;
+    }
+
+    .plain_text_snippets {
+        margin: 50px 0 50px 0;
+    }
+
+    .sponsors {
+        margin-left: 110px;
+    }
+
+    .sponsors img {
+        margin-bottom: 50px;
+    }
+
+    .download_title {
+        width: 280px;
+        margin-left: 42px;
+    }
+
+    .download_dsc {
+        width: 300px;
+        margin-left: 37px;
+    }
+}
+
